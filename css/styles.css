@@ -27,24 +27,27 @@ a {
 }
 
 .header-logo-diff {
-    color: #2e2f42;
+    color: #2E2F42;
 }
 
 .header-menu {}
 
-.header-item {}
-
-.header-link {
-        color: #2E2F42;
+.header-item {
+    color: #2E2F42;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
 
-.header-link:hover .header-link:focus {
+.header-item:hover .header-item:focus {
     color: #404BBF;
 }
+
+.header-link {}
+
+.header-link:hover .header-link:focus {}
+
 .search {
         font-style: normal
 }
@@ -70,6 +73,7 @@ a {
 }
 
 .headline-slogan {
+    color: #FFFFFF;
         text-align: center;
         font-size: 56px;
         font-weight: 700;
@@ -78,7 +82,8 @@ a {
 }
 
 .headline-btn {
-    background: #4D5AE5;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
         font-family: inherit;
         font-size: 16px;
         font-weight: 500;
@@ -88,7 +93,7 @@ a {
 }
 
 .headline-btn:hover .headline-btn:focus {
-    background: #404BBF;
+    background-color: #404BBF;
 }
 
 .title {}
@@ -114,10 +119,10 @@ a {
 }
 
 .caption {
+    background-color: #F4F4FD;
 }
 
 .caption-lead {
-    background: #F4F4FD;
         color: #2E2F42;
         text-align: center;
         font-size: 36px;
