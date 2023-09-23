@@ -33,40 +33,43 @@ a {
 .header-menu {}
 
 .header-item {
-    color: #2E2F42;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+        color: #2E2F42;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
 }
 
 .header-item:hover .header-item:focus {
     color: #404BBF;
 }
 
-.header-link {}
+.header-link {
+
+}
 
 .header-link:hover .header-link:focus {}
 
 .search {
-        font-style: normal
+    font-style: normal
 }
 
 .search-menu {}
 
-.search-item {}
-
-.search-info {
+.search-item {
     color: #434455;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-
 }
 
-.search-info:hover .search-info:focus {
+.search-item:hover .search-item:focus {
     color: #404BBF;
 }
+
+.search-info {}
+
+.search-info:hover .search-info:focus {}
 
 .headline {
     background-color: #2E2F42;
