@@ -32,7 +32,11 @@ a {
 
 .header-menu {}
 
-.header-item {
+.header-item {}
+
+.header-item:hover, .header-item:focus {}
+
+.header-link {
     color: #2E2F42;
         font-size: 16px;
         font-weight: 500;
@@ -40,13 +44,9 @@ a {
         letter-spacing: 0.02em;
 }
 
-.header-item:hover, .header-item:focus {
+.header-link:hover, .header-link:focus {
     color: #404BBF;
 }
-
-.header-link {}
-
-.header-link:hover, .header-link:focus {}
 
 .search {
     font-style: normal
@@ -54,14 +54,29 @@ a {
 
 .search-menu {}
 
-.search-item {
+.search-item {}
+
+.search-item:hover, .search-item:focus {}
+
+.search-mail {
     color: #434455;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
 
-.search-item:hover, .search-item:focus {
+.search-mail:hover, .search-mail:focus {
+    color: #404BBF;
+}
+
+.search-tel {
+    color: #434455;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.search-tel:hover, .search-tel:focus {
     color: #404BBF;
 }
 
