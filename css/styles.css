@@ -58,31 +58,16 @@ a {
 
 .search-item:hover, .search-item:focus {}
 
-.search-mail {
+.search-info {
     color: #434455;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
 
-.search-mail:hover, .search-mail:focus {
+.search-info:hover, .search-info:focus {
     color: #404BBF;
 }
-
-.search-tel {
-    color: #434455;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-}
-
-.search-tel:hover, .search-tel:focus {
-    color: #404BBF;
-}
-
-.search-info {}
-
-.search-info:hover, .search-info:focus {}
 
 .headline {
     background-color: #2E2F42;
