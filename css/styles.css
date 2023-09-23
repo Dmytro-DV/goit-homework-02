@@ -33,22 +33,22 @@ a {
 .header-menu {}
 
 .header-item {
-        color: #2E2F42;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
 }
 
-.header-item:hover .header-item:focus {
-    color: #404BBF;
+.header-item:hover, .header-item:focus {
 }
 
 .header-link {
-
+    color: #2E2F42;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
-.header-link:hover .header-link:focus {}
+.header-link:hover, .header-link:focus {
+    color: #404BBF;
+}
 
 .search {
     font-style: normal
@@ -63,13 +63,13 @@ a {
         letter-spacing: 0.02em;
 }
 
-.search-item:hover .search-item:focus {
+.search-item:hover, .search-item:focus {
     color: #404BBF;
 }
 
 .search-info {}
 
-.search-info:hover .search-info:focus {}
+.search-info:hover, .search-info:focus {}
 
 .headline {
     background-color: #2E2F42;
@@ -95,7 +95,7 @@ a {
         cursor: pointer;
 }
 
-.headline-btn:hover .headline-btn:focus {
+.headline-btn:hover, .headline-btn:focus {
     background-color: #404BBF;
 }
 
